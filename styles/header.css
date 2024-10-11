@@ -14,16 +14,10 @@
     max-width: 1200px;
     margin: 0 auto;
   }
-  .image {
-    width: 20%;
-    min-width: 200px;
-    max-width: 150px;
-  }
   h1 {
     color: var(--main-text-color);
     font-weight: 700;
     font-size: 20px;
-    color: var(--main-brand-color);
     margin: 0;
   }
   .links {
@@ -38,7 +32,7 @@
       font-weight: 200;
       font-size: 20px;
       padding: 5px 10px;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.5s ease;
     }
     a:hover {
       background-color: var(--hover-color);

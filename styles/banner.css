@@ -1,0 +1,24 @@
+.banner {
+    height: 25vh;
+    position: relative;
+    margin: 10px 10px;
+    .image {
+        background-image: url('../assets/app/bg1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border-radius: 4px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.8;
+    }
+}
+
+@media (width > 768px) {
+    .banner .image {
+        background-image: url('../assets/app/bg1.jpg');
+    }
+}

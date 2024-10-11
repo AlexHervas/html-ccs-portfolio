@@ -1,0 +1,81 @@
+.profile {
+    height: 40vh;
+    align-content: center;
+    h2 {
+        color: var(--main-text-color);
+        padding: 0 1rem;
+    }
+    .skills {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .skill {
+        margin-bottom: 20px;
+        z-index: 1;
+    }
+
+    .skill span {
+        display: block;
+        margin-bottom: 10px;
+        color: var(--main-text-color);
+        font-weight: bold;
+    }
+
+    .progress-bar {
+        background-color: black;
+        border-radius: 3px;
+        height: 15px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .progress {
+        height: 100%;
+        background-color: var(--hover-color);
+        border-radius: 5px;
+        width: 0%; 
+        animation: fill 2s ease forwards; 
+    }
+
+    .progress.html {
+        animation: fill 2s ease forwards;
+        animation-delay: 0.5s;
+        width: 60%;
+    }
+
+    .progress.css {
+        animation: fill 2s ease forwards;
+        animation-delay: 0.5s;
+        width: 40%;
+    }
+
+    .progress.js {
+        animation: fill 2s ease forwards;
+        animation-delay: 0.5s;
+        width: 70%;
+    }
+
+    .progress.python {
+        animation: fill 2s ease forwards;
+        animation-delay: 0.5s;
+        width: 70%;
+    }
+}
+
+
+@media (width > 1200px) {
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@keyframes fill {
+    from {
+        width: 0%;
+    }
+}

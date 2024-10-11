@@ -4,3 +4,9 @@
   --main-text-color: #fff;
   --hover-color: #716f6e;
 }
+
+.main-bg {
+  background-color: grey;
+  color: var(--main-text-color);
+  opacity: 1;
+}
