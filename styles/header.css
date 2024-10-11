@@ -1,6 +1,48 @@
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 99;
-    background-color: ;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 10px 10px;
+  background-color: var(--bg-color);
+  color: var(--main-text-color);
+  padding: 1rem;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .image {
+    width: 20%;
+    min-width: 200px;
+    max-width: 150px;
+  }
+  h1 {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--main-brand-color);
+    margin: 0;
+  }
+  .links {
+    display: flex;
+    gap: 15px;
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: var(--main-text-color);
+      font-weight: 200;
+      font-size: 20px;
+      padding: 5px 10px;
+      transition: background-color 0.3s ease;
+    }
+    a:hover {
+      background-color: var(--hover-color);
+      border-radius: 3px;
+    }  
+  }
 }
