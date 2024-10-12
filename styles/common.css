@@ -8,5 +8,8 @@
 .main-bg {
   background-color: grey;
   color: var(--main-text-color);
-  opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
 }

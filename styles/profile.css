@@ -1,7 +1,9 @@
 .profile {
     height: 40vh;
     align-content: center;
+    max-width: 1200px;
     h2 {
+        text-align: center;
         color: var(--main-text-color);
         padding: 0 1rem;
     }
@@ -62,6 +64,11 @@
         animation: fill 2s ease forwards;
         animation-delay: 0.5s;
         width: 70%;
+    }
+
+    .description {
+        padding: 1rem 1rem;
+        color: var(--main-text-color);
     }
 }
 
