@@ -1,7 +1,6 @@
 .profile {
     height: 40vh;
     align-content: center;
-    max-width: 1200px;
     h2 {
         text-align: center;
         color: var(--main-text-color);
