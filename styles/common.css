@@ -1,11 +1,12 @@
 :root {
   --bg-color: #000;
-  font-size: 18px;
   --main-text-color: #fff;
   --hover-color: #716f6e;
+  --primary-font: 'Arial', sans-serif;
 }
 
 .main-bg {
+  font-family: var(--primary-font);
   background-color: grey;
   color: var(--main-text-color);
 }
