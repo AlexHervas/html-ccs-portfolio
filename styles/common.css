@@ -1,13 +1,15 @@
 :root {
   --bg-color: #000;
-  --main-text-color: #fff;
-  --hover-color: #716f6e;
+  --bg-color-lighter: rgb(122, 121, 121);
+  --main-text-color: #ff9100;
+  --second-text-color: rgb(255, 255, 255);
+  --hover-color: #dacec9bd;
   --primary-font: 'Arial', sans-serif;
 }
 
 .main-bg {
   font-family: var(--primary-font);
-  background-color: grey;
+  background-color: var(--bg-color-lighter);
   color: var(--main-text-color);
 }
 

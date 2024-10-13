@@ -1,17 +1,13 @@
-.profile {
-    padding: 2rem 1rem;
-}
-
-h2 {
-    color: var(--main-text-color);
-    margin-bottom: 20px;
-}
-
 .skills {
-    margin-top: 20px;
+    margin: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+}
+
+.skills-title {
+    text-align: center;
+    margin: 20px;
 }
 
 .skill {
@@ -21,7 +17,6 @@ h2 {
 .skill span {
     display: block;
     margin-bottom: 10px;
-    color: var(--main-text-color);
     font-weight: bold;
 }
 
@@ -35,7 +30,7 @@ h2 {
 
 .progress {
     height: 100%;
-    background-color: var(--hover-color);
+    background-color: var(--main-text-color);
     border-radius: 5px;
     width: 0%;
     animation: fill 2s ease forwards;
@@ -62,7 +57,22 @@ h2 {
 }
 
 .description {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+  
+.description h2 {
+    text-align: center;
     color: var(--main-text-color);
+    margin-bottom: 10px;
+}
+  
+.description p {
+    color: var(--main-text-color);
+    line-height: 1.6;
 }
 
 @media (max-width: 768px) {
